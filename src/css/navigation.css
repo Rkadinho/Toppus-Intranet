@@ -1,0 +1,395 @@
+.navigationBar{
+    margin: 0vw;
+    padding: 0vw;
+    list-style-type: none;
+    background-color: #D4E8FF;
+    width: 20vw;
+    border: 0.2vw solid #22AFF1;
+    border-radius: 2.3vw 2.3vw 2vw 2vw;
+    position: absolute;
+    right: 0vw;
+    top: 10.5vw;
+    box-shadow: 0.5vw 0.5vw #22AFF1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.navigationBar ul{
+    list-style-type: none;
+}
+
+.navigationBar a:hover{
+    background-color: #22AFF1;
+    color: #D4E8FF;
+}
+
+.home{
+    list-style-type: none;
+    background-color: #22AFF1;
+    padding:2vw 2vw;
+    border-radius: 2vw 2vw 0vw 0vw;
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.navigationBarCenter{
+    text-align: center;
+    border-bottom: 0.2vw solid #22AFF1;
+}
+
+.navigationBarCenter a{
+    display: block;
+    color: #000;
+    padding: 2vw 2vw;
+    text-decoration: none;
+    border-radius: 0vw 0vw 0vw 0vw;
+}
+
+.navigationBarCenter:last-child {
+    border-bottom: none;
+}
+
+.navigationBarCenter:last-child a{
+    border-radius: 0% 0% 16% 16%;
+}
+
+@media screen and (max-width: 1200px) {
+    .navigationBar{
+    display: block;
+    margin: 0vw;
+    padding: 0vw;
+    list-style-type: none;
+    background-color: #D4E8FF;
+    width: 20vw;
+    border: 0.1vw solid #22AFF1;
+    border-radius: 2.3vw 2.3vw 2vw 2vw;
+    position: absolute;
+    right: 0vw;
+    top: 24vw;
+    box-shadow: 0.5vw 0.5vw #22AFF1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.navigationBar ul{
+    list-style-type: none;
+}
+
+.navigationBar a:hover{
+    background-color: #22AFF1;
+    color: #D4E8FF;
+}
+
+.home{
+    font-size: 5vw;
+    list-style-type: none;
+    background-color: #22AFF1;
+    padding: 2vw 2vw;
+    border-radius: 2vw 2vw 0vw 0vw;
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.navigationBarCenter{
+    text-align: center;
+    border-bottom: 0.2vw solid #22AFF1;
+}
+
+.navigationBarCenter a{
+    color: #000;
+    padding: 2vw 2vw;
+    text-decoration: none;
+    border-radius: 0vw 0vw 0vw 0vw;
+}
+
+.navigationBarCenter:last-child {
+    border-bottom: none;
+}
+
+.navigationBarCenter:last-child a{
+    border-radius: 0% 0% 16% 16%;
+}
+
+}
+
+@media screen and (max-width: 720px){
+    .navigationBar{
+        margin: 0vw;
+        padding: 0vw;
+        list-style-type: none;
+        background-color: #D4E8FF;
+        width: 20vw;
+        border: 0.2vw solid #22AFF1;
+        border-radius: 2.3vw 2.3vw 2vw 2vw;
+        position: absolute;
+        right: 1vw;
+        top: 12vw;
+        box-shadow: 0.5vw 0.5vw #22AFF1;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    
+    .navigationBar ul{
+        list-style-type: none;
+    }
+    
+    .navigationBar a:hover{
+        background-color: #22AFF1;
+        color: #D4E8FF;
+    }
+    
+    .home{
+        list-style-type: none;
+        background-color: #22AFF1;
+        padding: 1vw 1vw;
+        border-radius: 1vw 1vw 0vw 0vw;
+        display: flex;
+        justify-content: center;
+        font-size: 2vw;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    
+    .navigationBarCenter{
+        text-align: center;
+        border-bottom: 0.2vw solid #22AFF1;
+    }
+    
+    .navigationBarCenter a{
+        display: block;
+        color: #000;
+        padding: 1vw 1vw;
+        text-decoration: none;
+        border-radius: 0vw 0vw 0vw 0vw;
+        font-size: 2vw;
+    }
+    
+    .navigationBarCenter:last-child {
+        border-bottom: none;
+    }
+    
+    .navigationBarCenter:last-child a{
+        border-radius: 0% 0% 16% 16%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .navigationBar{
+        list-style-type: none;
+        background-color: #D4E8FF;
+        width: 20vw;
+        border: 0.2vw solid #22AFF1;
+        border-radius: 2.3vw 2.3vw 2vw 2vw;
+        right: 0vw;
+        top: 10vw;
+        box-shadow: 0.5vw 0.5vw #22AFF1;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    
+    .navigationBar ul{
+        list-style-type: none;
+    }
+    
+    .navigationBar a:hover{
+        background-color: #22AFF1;
+        color: #D4E8FF;
+    }
+    
+    .home{
+        list-style-type: none;
+        background-color: #22AFF1;
+        padding: 1vw 1vw;
+        border-radius: 1vw 1vw 0vw 0vw;
+        display: flex;
+        justify-content: center;
+        font-size: 1vw;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    
+    .navigationBarCenter{
+        text-align: center;
+        border-bottom: 0.2vw solid #22AFF1;
+    }
+    
+    .navigationBarCenter a{
+        display: block;
+        color: #000;
+        padding: 1vw 1vw;
+        text-decoration: none;
+        border-radius: 0vw 0vw 0vw 0vw;
+        font-size: 2vw;
+    }
+    
+    .navigationBarCenter:last-child {
+        border-bottom: none;
+    }
+    
+    .navigationBarCenter:last-child a{
+        border-radius: 0% 0% 16% 16%;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .navigationBar{
+        margin: 0vw;
+        padding: 0vw;
+        list-style-type: none;
+        background-color: #D4E8FF;
+        width: 21vw;
+        border: 0.2vw solid #22AFF1;
+        border-radius: 2.3vw 2.3vw 2vw 2vw;
+        position: absolute;
+        right: 0vw;
+        top: 13vw;
+        box-shadow: 0.5vw 0.5vw #22AFF1
+    }
+    
+    .navigationBar ul{
+        list-style-type: none;
+    }
+    
+    .navigationBar a:hover{
+        background-color: #22AFF1;
+        color: #D4E8FF;
+    }
+    
+    .home{
+        list-style-type: none;
+        background-color: #22AFF1;
+        padding: 2vw 1vw;
+        border-radius: 2vw 2vw 0vw 0vw;
+        display: flex;
+        justify-content: center;
+        font-size: 2vw;
+    }
+    
+    .navigationBarCenter{
+        text-align: center;
+        border-bottom: 0.2vw solid #22AFF1;
+    }
+    
+    .navigationBarCenter a{
+        display: block;
+        color: #000;
+        padding: 1vw 1vw;
+        text-decoration: none;
+        border-radius: 0vw 0vw 0vw 0vw;
+        font-size: 1.5vw;
+    }
+    
+    .navigationBarCenter:last-child {
+        border-bottom: none;
+    }
+    
+    .navigationBarCenter:last-child a{
+        border-radius: 0% 0% 16% 16%;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .navigationBar{
+        list-style-type: none;
+        background-color: #D4E8FF;
+        width: 22vw;
+        border: 0.2vw solid #22AFF1;
+        border-radius: 1.5vw 1.5vw 1.5vw 1.5vw;
+        top: 10vw;
+        box-shadow: 0.5vw#22AFF1;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    
+    .navigationBar ul{
+        list-style-type: none;
+    }
+    
+    .navigationBar a:hover{
+        background-color: #22AFF1;
+        color: #D4E8FF;
+    }
+    
+    .home{
+        list-style-type: none;
+        background-color: #22AFF1;
+        padding: 2vw 2vw;
+        border-radius: 1vw 1vw 0vw 0vw;
+        display: flex;
+        justify-content: center;
+        font-size: 1.5vw;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    
+    .navigationBarCenter{
+        text-align: center;
+        border-bottom: 0.2vw solid #22AFF1;
+    }
+    
+    .navigationBarCenter a{
+        display: block;
+        color: #000;
+        padding: 2vw 2vw;
+        text-decoration: none;
+        border-radius: 0vw 0vw 0vw 0vw;
+        font-size: 1.5vw;
+    }
+    
+    .navigationBarCenter:last-child {
+        border-bottom: none;
+    }
+    
+    .navigationBarCenter:last-child a{
+        border-radius: 0% 0% 16% 16%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .navigationBar{
+        list-style-type: none;
+        background-color: #D4E8FF;
+        width: 22vw;
+        border: 0.2vw solid #22AFF1;
+        border-radius: 1.5vw 1.5vw 1.5vw 1.5vw;
+        top: 13vw;
+        box-shadow: 0.5vw#22AFF1;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    
+    .navigationBar ul{
+        list-style-type: none;
+    }
+    
+    .navigationBar a:hover{
+        background-color: #22AFF1;
+        color: #D4E8FF;
+    }
+    
+    .home{
+        list-style-type: none;
+        background-color: #22AFF1;
+        padding: 2vw 2vw;
+        border-radius: 1vw 1vw 0vw 0vw;
+        display: flex;
+        justify-content: center;
+        font-size: 1.5vw;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    
+    .navigationBarCenter{
+        text-align: center;
+        border-bottom: 0.2vw solid #22AFF1;
+    }
+    
+    .navigationBarCenter a{
+        display: block;
+        color: #000;
+        padding: 2vw 2vw;
+        text-decoration: none;
+        border-radius: 0vw 0vw 0vw 0vw;
+        font-size: 1.5vw;
+    }
+    
+    .navigationBarCenter:last-child {
+        border-bottom: none;
+    }
+    
+    .navigationBarCenter:last-child a{
+        border-radius: 0% 0% 16% 16%;
+    }
+}

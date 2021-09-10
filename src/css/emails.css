@@ -1,0 +1,9 @@
+.emails{
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .emails{
+        text-align: center;
+    } 
+}

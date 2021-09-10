@@ -1,0 +1,27 @@
+.news{
+    background-color: #22AFF1;
+    border-radius: 10vw 10vw 10vw 10vw;
+    margin-top: 4vw;
+}
+
+h1{
+    color: #D4E8FF;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 720px){
+    .news{
+        background-color: #22AFF1;
+        border-radius: 10vw 10vw 10vw 10vw;
+        bottom: 0vw;
+        position: relative;
+    }
+    
+    h1{
+        color: #D4E8FF;
+        display: flex;
+        justify-content: center;
+        font-size: 3vw;
+    }
+}

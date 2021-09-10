@@ -1,0 +1,24 @@
+.date{
+    display: flex;
+    position: relative;
+    left: 66.5vw;
+    bottom: 9.2vw;
+    color: #D4E8FF;
+    font-size: 1.2vw;
+    text-transform: capitalize;
+    width: 30vw;
+    text-align: center;
+}
+
+@media  screen and (max-width: 500px) {
+    .date{
+        display: flex;
+        position: relative;
+        left: 67vw;
+        bottom: 10vw;
+        color: #D4E8FF;
+        font-size: 1.2vw;
+        text-transform: capitalize;
+        width: 30vw;
+    }
+}

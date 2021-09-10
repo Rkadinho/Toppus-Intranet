@@ -1,0 +1,51 @@
+.Home{
+    background-color: #22AFF1;
+    height: 6vw;
+    border-radius: 0% 0% 20% 20%;
+    box-shadow: 0.11vw 1.1vw 1.1vw #4d4c4c;
+    position: relative;
+    bottom: 3vw
+}
+
+.logo{
+    display: flex;
+    width: 12vw;
+    left: 38vw;
+    position: relative;
+}
+
+@media screen and (max-width: 1300px) {
+    .Home{
+        background-color: #22AFF1;
+        height: 7vw;
+        border-radius: 0% 0% 20% 20%;
+        box-shadow: 0.11vw 1.1vw 1.1vw #4d4c4c;
+        position: relative;
+        bottom: 3vw
+    }
+    
+    .logo{
+        display: flex;
+        width: 12vw;
+        left: 38vw;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .Home{
+        background-color: #22AFF1;
+        height: 8vw;
+        border-radius: 0% 0% 20% 20%;
+        box-shadow: 0.11vw 1.1vw 1.1vw #4d4c4c;
+        position: relative;
+        bottom: 3vw
+    }
+    
+    .logo{
+        display: flex;
+        width: 14vw;
+        left: 40vw;
+        position: relative;
+    }
+}
