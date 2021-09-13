@@ -55,10 +55,10 @@ export default class Date extends React.Component {
         if(hour >= '00:00'){
           text = 'Bom Dia!'
         }
-        else if(hour >= '12:00') {
+        if(hour >= '12:00') {
           text = 'Boa Tarde!'
         }
-        else if(hour >= '18:00'){
+        if(hour >= '18:00'){
           text = 'Boa noite!'
         }
 
