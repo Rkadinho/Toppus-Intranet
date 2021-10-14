@@ -1,3 +1,8 @@
+.printer{
+    position: relative;
+    top: 8vw;
+}
+
 th{
     border: 1vw solid #22AFF1;
     background-color: #22AFF1;

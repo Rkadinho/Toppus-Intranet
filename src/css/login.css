@@ -1,0 +1,52 @@
+.containerLogin{
+    border: 0.2vw solid #22AFF1;
+    margin: 0;
+    padding: 0;
+    border-radius: 0.5vw 0.5vw 0.5vw 0.5vw;
+    width: 20vw;
+}
+
+.containerFull{
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 10vw;
+    left: 35vw;
+}
+
+.usuario{
+    border-radius: 0.5vw 0.5vw 0.5vw 0.5vw;
+    border: none;
+    width: 19.7vw;
+    height: 3vw;
+}
+
+input:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.password:focus{
+    border-top: 0.2vw solid #22AFF1;
+}
+
+.password {
+    border-radius: 0vw 0vw 0.5vw 0.5vw;
+    border: none;
+    width: 19.7vw;
+    height: 3vw;
+    border-top: 0.2vw solid #22AFF1;
+}
+
+.buttonLogin{
+    background-color: #22AFF1;
+    color: #D4E8FF;
+    width: 12vw;
+    height: 3vw;
+    opacity: 0.8;
+}
+
+.buttonLogin:hoover{
+    opacity: 1;
+}

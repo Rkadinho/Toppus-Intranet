@@ -1,0 +1,35 @@
+.containerForms {
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 10vw;
+    left: 35vw;
+}
+
+input {
+    background-color: #D4E8FF;
+    border: 0.1vw solid #22AFF1;
+    border-radius: 2vw 2vw 2vw 2vw;
+    width: 15vw;
+}
+
+button{
+    background-color: #D4E8FF;
+    border: 0.1vw solid #22AFF1;
+    border-radius: 2vw 2vw 2vw 2vw;
+    width: 10vw;
+    margin: 1vw 1vw 0vw 0vw;
+}
+
+.buttonForms{
+    background-color: #22AFF1;
+    color: #D4E8FF;
+}
+
+select{
+    background-color: #D4E8FF;
+    border: 0.1vw solid #22AFF1;
+    border-radius: 2vw 2vw 2vw 2vw;
+    width: 15vw;
+    margin: 1vw 1vw 0vw 0vw;
+}
